@@ -3,8 +3,7 @@
   "description": "Complete Next.js development with Vercel deployment",
   "version": "1.0.0",
   "categories": ["frontend", "fullstack", "deployment"],
-  "
-  ": "Skills for building and deploying Next.js applications with best practices",
+  "purpose": "Skills for building and deploying Next.js applications with best practices",
 
   "phases": {
     "essential": {
