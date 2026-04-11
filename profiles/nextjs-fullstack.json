@@ -1,0 +1,74 @@
+{
+  "name": "nextjs-fullstack",
+  "description": "Complete Next.js development with Vercel deployment",
+  "version": "1.0.0",
+  "categories": ["frontend", "fullstack", "deployment"],
+  "
+  ": "Skills for building and deploying Next.js applications with best practices",
+
+  "phases": {
+    "essential": {
+      "description": "Core skills needed to start Next.js development",
+      "npx-skills": [
+        "skills/react-best-practices",
+        "skills/deploy-to-vercel"
+      ],
+      "skillport-skills": []
+    },
+    "architecture": {
+      "description": "Component architecture and design patterns",
+      "npx-skills": [
+        "skills/composition-patterns",
+        "skills/web-design-guidelines"
+      ],
+      "skillport-skills": []
+    },
+    "polish": {
+      "description": "Advanced UI patterns and transitions",
+      "npx-skills": [
+        "skills/react-view-transitions",
+        "skills/vercel-cli-with-tokens"
+      ],
+      "skillport-skills": []
+    },
+    "testing": {
+      "description": "Testing and quality assurance",
+      "npx-skills": [],
+      "skillport-skills": [
+        "anthropics/skills/webapp-testing"
+      ]
+    }
+  },
+
+  "all_skills": {
+    "npx-skills": [
+      "skills/react-best-practices",
+      "skills/deploy-to-vercel",
+      "skills/composition-patterns",
+      "skills/web-design-guidelines",
+      "skills/react-view-transitions",
+      "skills/vercel-cli-with-tokens"
+    ],
+    "skillport-skills": [
+      "anthropics/skills/webapp-testing"
+    ]
+  },
+
+  "environment": {
+    "recommended": [
+      "OPENROUTER_API_KEY",
+      "VERCEL_TOKEN"
+    ],
+    "optional": [
+      "AWS_ACCESS_KEY_ID",
+      "AWS_SECRET_ACCESS_KEY"
+    ]
+  },
+
+  "workflow_examples": [
+    "Build performant React components with best practices",
+    "Deploy to Vercel with automated CI/CD",
+    "Implement accessible UI with design guidelines",
+    "Test web applications with Playwright"
+  ]
+}
