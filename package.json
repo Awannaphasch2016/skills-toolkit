@@ -9,9 +9,17 @@
   },
   "scripts": {
     "start": "node bin/skills.mjs",
-    "install-profile": "node bin/skills.mjs install",
-    "list-profiles": "node bin/skills.mjs list",
-    "update-cache": "node bin/skills.mjs update"
+    "skills:list": "node bin/skills.mjs list",
+    "skills:add": "node bin/skills.mjs add",
+    "skills:install": "node bin/skills.mjs install",
+    "skills:search": "node bin/skills.mjs search",
+    "skills:validate": "node bin/skills.mjs validate",
+    "skills:status": "node bin/skills.mjs status",
+    "skills:migrate": "node bin/skills.mjs migrate",
+    "skills:analytics": "node bin/skills.mjs analytics",
+    "skills:mode": "node bin/skills.mjs mode",
+    "test": "node test/test-runner.js",
+    "migrate": "node migrate-profiles.js"
   },
   "keywords": [
     "cli",
@@ -34,5 +42,9 @@
   "bugs": {
     "url": "https://github.com/Awannaphasch2016/skills-toolkit/issues"
   },
-  "homepage": "https://github.com/Awannaphasch2016/skills-toolkit#readme"
+  "homepage": "https://github.com/Awannaphasch2016/skills-toolkit#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.103.0",
+    "pg": "^8.20.0"
+  }
 }
