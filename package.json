@@ -1,0 +1,38 @@
+{
+  "name": "skills-cli",
+  "version": "1.0.0",
+  "description": "Skills management CLI for development workflows",
+  "type": "module",
+  "main": "skills-launcher.js",
+  "bin": {
+    "skills": "./skills-launcher.js"
+  },
+  "scripts": {
+    "start": "node bin/skills.mjs",
+    "install-profile": "node bin/skills.mjs install",
+    "list-profiles": "node bin/skills.mjs list",
+    "update-cache": "node bin/skills.mjs update"
+  },
+  "keywords": [
+    "cli",
+    "skills",
+    "development",
+    "tools",
+    "npx",
+    "skillport",
+    "opencli"
+  ],
+  "author": "Anak",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Awannaphasch2016/skills-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Awannaphasch2016/skills-toolkit/issues"
+  },
+  "homepage": "https://github.com/Awannaphasch2016/skills-toolkit#readme"
+}

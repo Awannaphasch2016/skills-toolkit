@@ -1,0 +1,77 @@
+{
+  "name": "docker-development",
+  "description": "Docker containerization and development environment setup",
+  "version": "1.0.0",
+  "categories": ["docker", "containerization", "devops", "development"],
+  "purpose": "Skills for containerizing applications and setting up development environments",
+
+  "phases": {
+    "fundamentals": {
+      "description": "Core Docker skills for basic containerization",
+      "local-skills": [
+        "docker-fundamentals",
+        "dockerfile-patterns"
+      ],
+      "npx-skills": [],
+      "skillport-skills": []
+    },
+    "orchestration": {
+      "description": "Docker Compose and multi-container applications",
+      "local-skills": [
+        "docker-compose-guide"
+      ],
+      "npx-skills": [
+        "skills/web-design-guidelines"
+      ],
+      "skillport-skills": []
+    },
+    "development": {
+      "description": "Development environment and debugging with MCP services",
+      "local-skills": [
+        "container-debugging"
+      ],
+      "npx-skills": [
+        "skills/react-best-practices"
+      ],
+      "skillport-skills": [
+        "anthropics/skills/mcp-builder"
+      ]
+    }
+  },
+
+  "all_skills": {
+    "npx-skills": [
+      "skills/react-best-practices",
+      "skills/web-design-guidelines"
+    ],
+    "skillport-skills": [
+      "anthropics/skills/mcp-builder"
+    ],
+    "local-skills": [
+      "docker-fundamentals",
+      "dockerfile-patterns",
+      "docker-compose-guide",
+      "container-debugging"
+    ]
+  },
+
+  "environment": {
+    "recommended": [
+      "DOCKER_HOST",
+      "COMPOSE_PROJECT_NAME"
+    ],
+    "optional": [
+      "DOCKER_BUILDKIT",
+      "BUILDX_EXPERIMENTAL"
+    ]
+  },
+
+  "workflow_examples": [
+    "Create optimized Dockerfiles with multi-stage builds",
+    "Set up Docker Compose for local development",
+    "Configure Dev Containers for consistent environments",
+    "Debug containerized applications effectively",
+    "Deploy applications with Docker best practices",
+    "Build Model Context Protocol (MCP) servers for microservices integration"
+  ]
+}
